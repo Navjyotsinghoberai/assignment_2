@@ -1,0 +1,90 @@
+body {
+    background-color: whitesmoke;
+    border: thick;
+    padding: 0px;
+    margin: 0px;
+}
+.left{
+    display: block;
+    background: indianred;
+    min-height: inherit;
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    flex-direction: column;
+    padding-top: 7%;
+
+}
+
+.right{
+    width: 70%;
+    height: inherit;
+    position: absolute;
+    flex-direction: column;
+    float: right;
+    left : 20%;
+    padding-left: 10%;
+    padding-top: 10%;
+    overflow-x: hidden;
+}
+
+.DisplayPicture{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 0.5em solid;
+}
+.footer-Logo{
+    height: 5%;
+    width: 5%;
+}
+.page-header{
+    color: grey;
+    ;
+}
+.lead{
+    color: white;
+}
+.navbar-left{
+    text-align: center;
+    width: 100%;
+}
+
+.navigate-left{
+    color: grey;
+    text-anchor: inherit;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    text-align: center;
+
+}
+.navigate{
+    display: block;
+    padding-bottom: 1.5vw;
+    font: size 2em;;
+    color: white;
+    
+}
+.navIcons {
+    padding: 20px;
+    font-size: 10px;
+    width: 10px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 50%;
+    border-color: black;
+  }
+.navIcons:hover {
+    opacity: 0.7;
+    color: indianred;
+}
+
+.footer-logo{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5%;
+      }
