@@ -4,11 +4,14 @@ body {
     padding: 0px;
     margin: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .left{
     display: block;
     background: indianred;
     min-height: inherit;
-    width: 30%;
+    width: 25%;
     height: 100%;
     float: left;
     position: fixed;
@@ -18,12 +21,12 @@ body {
 }
 
 .right{
-    width: 70%;
+    width: 75%;
     height: inherit;
     position: absolute;
     flex-direction: column;
     float: right;
-    left : 20%;
+    left : 15%;
     padding-left: 10%;
     padding-top: 10%;
     overflow-x: hidden;
@@ -62,6 +65,8 @@ body {
 
 }
 .navigate{
+    position: relative;
+    margin: right 10px;
     display: block;
     padding-bottom: 1.5vw;
     font: size 2em;;
