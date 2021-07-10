@@ -110,6 +110,17 @@ html{
     text-align: center;
 
 }
+
+.footer-Logo:hover{
+        color: grey;
+        text-anchor: inherit;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        text-align: center;
+    
+}
+
 .navigate{
     position: relative;
     margin: right 10px;
@@ -127,10 +138,6 @@ html{
     text-decoration: none;
     border-radius: 50%;
     border-color: black;
-  }
-.footer-Logo:hover{
-    opacity: 0.7;
-    color: indianred;
 }
 
 .footer-logo{
