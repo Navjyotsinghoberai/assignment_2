@@ -19,9 +19,36 @@ html{
     padding-top: 7%;
 
 }
+/* .footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    width : 10;
+    height : 10;
+} */
+
+#about {
+    height: 600px;
+}
+
+#education {
+    height: 600px;
+}
+
+#work-experience {
+    height: 600px;
+}
+
+#skills {
+    height: 600px;
+}
+
+#interests {
+    height: 600px;
+}
 
 .right{
-    width: 75%;
+    width: 80%;
     height: inherit;
     position: absolute;
     flex-direction: column;
@@ -29,8 +56,25 @@ html{
     left : 15%;
     padding-left: 10%;
     padding-top: 10%;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
+
+/* .container{
+    width:70%;
+    height: 600px;
+
+}
+.container{
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    flex-direction: column;
+    float: right;
+    left : 15%;
+    padding-left: 10%;
+    padding-top: 10%;
+    overflow-x:hidden;
+} */
 
 .DisplayPicture{
     display: block;
@@ -38,6 +82,8 @@ html{
   margin-right: auto;
   width: 60%;
   border-radius: 0.5em solid;
+
+
 }
 .footer-Logo{
     height: 5%;
@@ -82,7 +128,7 @@ html{
     border-radius: 50%;
     border-color: black;
   }
-.navIcons:hover {
+.footer-Logo:hover{
     opacity: 0.7;
     color: indianred;
 }
